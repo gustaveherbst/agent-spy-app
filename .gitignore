@@ -1,0 +1,35 @@
+# Xcode and Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Application Build Outputs & Bundles
+build/
+dist/
+*.app/
+*.dmg
+
+# Runtime & Local Database Files
+*.sock
+*.db
+*.db-wal
+*.db-shm
+
+# Environment & Editor Files
+.env
+.env.local
+*.swp
+*~
+.idea/
+.vscode/
